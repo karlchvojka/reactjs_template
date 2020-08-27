@@ -1,15 +1,51 @@
-@import '../Styles/_reset.scss'; 
+/*
+  These styles are some defaults meant for the Template.
+  These are default, feel free to change them.
+
+  I would suggest leaving the imports tho ;)
+*/
+
+@import '../Styles/_reset.scss';
 @import '../Styles/variables.scss';
 @import '../Styles/fonts.scss';
 
 body {
   background-color: $darkGrey;
+  background-size: 75px 75px;
+  background-image:
+    linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent),
+    linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
 }
 
 header {
   background-color: $headerGrey;
+  padding:20px;
+  text-align:center;
 }
 main {
-  max-width:800px;
+  max-width:80%;
   margin: 0 auto;
+
+  .gridWrap {
+    background-color: $headerGrey;
+    border-radius: 10px;
+    box-shadow: 2px 1px 8px 5px rgba(48,191,242,0.75);
+    margin-top:50px;
+    padding:$spacing;
+    -webkit-box-shadow: 2px 1px 8px 5px rgba(48,191,242,0.75);
+    -moz-box-shadow: 2px 1px 8px 5px rgba(48,191,242,0.75);
+
+    h2 {
+      text-align:center;
+      margin-bottom: $spacing;
+    }
+    p {
+      text-align: center;
+    }
+
+    .theChallenge {
+      margin-top:20px;
+      text-align: center;
+    }
+  }
 }
