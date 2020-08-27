@@ -7,7 +7,7 @@ const App = () => {
       <header>
         <h1>React App Template</h1>
         </header>
-      <main>
+      <main id="mainWrap">
         <section className="gridWrap">
           <h2>Welcome to The Grid.</h2>
           <p>This reactJS template was the result of a challenge from a close friend and mentor, and some curiosity. The purpose of this is to have an up and running ReactJS app, that is as minimal as possible.</p>
