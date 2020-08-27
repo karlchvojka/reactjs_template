@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
 import './App.scss';
 
 const App = () => {
   return (
-    <h1>
-      React App
-    </h1>
+    <div className="App">
+      <header>
+        <h1>Burn.Net - React App Template.</h1>
+      </header>
+      <main>
+
+      </main>
+    </div>
   )
 }
 

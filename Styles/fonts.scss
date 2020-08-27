@@ -1,0 +1,11 @@
+/*
+  This is a file to use for fonts. And fonts only.
+  Please set your default font sizes and colors here.
+*/
+
+h1 {
+  font-family: $cyberFont;
+  color: $lightBlue;
+  text-transform: uppercase;
+  font-size:30px;
+}
