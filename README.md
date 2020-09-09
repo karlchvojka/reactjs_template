@@ -12,3 +12,4 @@ Once you have used the template to create the repo, follow these instructions:
 1. cd into the directory.
 2. Run: npm Install
 3. To start: npm start
+4. Copy .env.default, rename to .env
