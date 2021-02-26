@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.scss';
+import { styled, createGlobalStyle } from 'styled-components';
+import { GlobalStyle } from './GlobalStyles.js';
 
 const App = () => {
   return (
     <div className="App">
+      <GlobalStyle />
       <header>
         <h1>React App Template</h1>
         </header>
