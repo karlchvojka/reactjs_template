@@ -22,5 +22,6 @@ export {
   paraFont,
   midBlue,
   lightBlue,
-  lightestBlue
+  lightestBlue,
+  spacing
 };
