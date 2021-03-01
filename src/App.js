@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.scss';
+import { styled, createGlobalStyle } from 'styled-components';
+import { GlobalStyle } from './GlobalStyles.js';
+import StyledApp from './StyledApp.js';
 
 const App = () => {
   return (
-    <div className="App">
+    <StyledApp>
+      <GlobalStyle />
       <header>
         <h1>React App Template</h1>
         </header>
@@ -18,7 +21,7 @@ const App = () => {
             </div>
           </section>
         </main>
-      </div>
+      </StyledApp>
   )
 }
 
